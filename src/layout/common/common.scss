@@ -9,9 +9,12 @@
 	"../components/scss/general.scss",
 	"../components/scss/text-container.scss"
 ;
+// Подключение общего файла шрифтов Muller
+@import "../../assets/fonts/Muller/MullerFonts.css";
 
 // Blocks
 @import
 	"../blocks/header/template.scss",
-	"../blocks/footer/template.scss"
+	"../blocks/footer/template.scss",
+	"../blocks/screen-1/screen-1.scss"
 	;

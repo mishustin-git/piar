@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'Muller';
+	font-weight: 300;
+	font-style: normal;
+	src: url('../../../../../fonts/Muller/MullerLight.eot'); /*IE 9 Compatibility Mode*/
+	src: url('../../../../../fonts/Muller/MullerLight.eot?#iefix') format('embedded-opentype'), /*IE < 9*/
+		url('../../../../../fonts/Muller/MullerLight.woff2') format('woff2'), /*Super Modern Browsers*/
+		url('../../../../../fonts/Muller/MullerLight.woff') format('woff'), /*Firefox >= 3.6, any other modern browser*/
+		url('../../../../../fonts/Muller/MullerLight.ttf') format('truetype') /*Safari, Android, iOS*/
+}
+@font-face {
+	font-family: 'Muller';
+	font-weight: 400;
+	font-style: normal;
+	src: url('../../../../../fonts/Muller/MullerRegular.eot'); /*IE 9 Compatibility Mode*/
+	src: url('../../../../../fonts/Muller/MullerRegular.eot?#iefix') format('embedded-opentype'), /*IE < 9*/
+		url('../../../../../fonts/Muller/MullerRegular.woff2') format('woff2'), /*Super Modern Browsers*/
+		url('../../../../../fonts/Muller/MullerRegular.woff') format('woff'), /*Firefox >= 3.6, any other modern browser*/
+		url('../../../../../fonts/Muller/MullerRegular.ttf') format('truetype') /*Safari, Android, iOS*/
+}
+@font-face {
+	font-family: 'Muller';
+	font-weight: 500;
+	font-style: normal;
+	src: url('../../../../../fonts/Muller/MullerMedium.eot'); /*IE 9 Compatibility Mode*/
+	src: url('../../../../../fonts/Muller/MullerMedium.eot?#iefix') format('embedded-opentype'), /*IE < 9*/
+		url('../../../../../fonts/Muller/MullerMedium.woff2') format('woff2'), /*Super Modern Browsers*/
+		url('../../../../../fonts/Muller/MullerMedium.woff') format('woff'), /*Firefox >= 3.6, any other modern browser*/
+		url('../../../../../fonts/Muller/MullerMedium.ttf') format('truetype') /*Safari, Android, iOS*/
+}
+@font-face {
+	font-family: 'Muller';
+	font-weight: 700;
+	font-style: normal;
+	src: url('../../../../../fonts/Muller/MullerBold.eot'); 
+	src: url('../../../../../fonts/Muller/MullerBold.eot?#iefix') format('embedded-opentype'), /*IE < 9*/
+		url('../../../../../fonts/Muller/MullerBold.woff2') format('woff2'), /*Super Modern Browsers*/
+		url('../../../../../fonts/Muller/MullerBold.woff') format('woff'), /*Firefox >= 3.6, any other modern browser*/
+		url('../../../../../fonts/Muller/MullerBold.ttf') format('truetype') /*Safari, Android, iOS*/
+}
+@font-face {
+	font-family: 'Muller';
+	font-weight: 800;
+	font-style: normal;
+	src: url('../../../../../fonts/Muller/MullerExtraBold.eot'); 
+	src: url('../../../../../fonts/Muller/MullerExtraBold.eot?#iefix') format('embedded-opentype'), /*IE < 9*/
+		url('../../../../../fonts/Muller/MullerExtraBold.woff2') format('woff2'), /*Super Modern Browsers*/
+		url('../../../../../fonts/Muller/MullerExtraBold.woff') format('woff'), /*Firefox >= 3.6, any other modern browser*/
+		url('../../../../../fonts/Muller/MullerExtraBold.ttf') format('truetype') /*Safari, Android, iOS*/
+}

@@ -1,0 +1,79 @@
+#screen1{
+    background: #FFF;
+    margin-top: 94px;
+    margin-bottom: 107px;
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .left-side{
+        max-width: 898px;
+        .information-text{
+            &-title{
+                // шрифты
+                font-family: "Muller";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 60px;
+                line-height: 128.5%;
+                text-transform: uppercase;
+                color: #171717;
+                .first-line{
+                    display: inline-block;
+                }
+                .second-line{
+                    display: inline-block;
+                }
+                .another-color{
+                    color:#5F5DDA
+                }
+            }
+            &-description{
+                max-width: 900px;
+                margin-top: 24px;
+                // margin-left спорный, нужно посмотреть размеры container
+                margin-left: 1px;
+                // шрифты
+                font-family: "Muller";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 150%;
+                text-transform: uppercase;
+                color: #171717;
+            }
+        }
+        .call-big{
+            margin-top: 34px;
+        }
+    }
+    .right-side{
+        width: 198.51px;
+        margin-top: 88px;
+        margin-left: 94px;
+        // при адаптиве картинка до последнего меняет свои размеры
+        min-width: 198.51px;
+        max-width: 198.51px;
+        .information-img{
+            img{
+                width: 198.51px;
+                height: 176.58px;
+            }
+        }
+    }
+    
+    .call-big{// button, применяется еще где-то(точно видел)
+        padding: 13px 35.5px;
+        background-color: #5F5DDA;
+        cursor: pointer;
+        // шрифты
+        font-family: "Muller";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 128.5%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+// нужен медиа как минимум с 991px
