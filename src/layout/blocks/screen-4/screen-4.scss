@@ -1,0 +1,79 @@
+#screen4{
+    // position
+    margin-top: 85px;
+    // background
+    background-color: #f1f1f1;
+    .title-questions{
+        // position
+        padding-top: 60px;
+        // fonts
+        font-family: "Muller";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 128.5%;
+        text-transform: uppercase;
+        color: #555555;
+    }
+    .accordion-block{
+        // position
+        margin-top: 40px;
+        padding-bottom: 69px;
+        .accordion-button{
+            // display
+            cursor: pointer;
+            // position
+            padding-top: 13px;
+            padding-bottom: 12px;
+            padding-left: 38px;
+            margin-bottom: 2px;
+            // dimentions
+            width: 100%;
+            // background
+            background-color: #5F5DDA;
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 150%;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &::after{
+                content: url("../img/screen-4/accordion+.png");
+                padding-right: 22px;
+                display: block;
+                width: 13px;
+                height: 12px;
+            }
+            &.active{
+                &::after{
+                    content: url("../img/screen-4/accordion-.png");
+                    // padding-right: 22px;
+                    // display: none;
+                }
+        }
+        }
+        .accordion-panel{
+            // position
+            padding-left: 38px;
+            padding-top: 22px;
+            padding-bottom: 19px;
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 150%;
+            color: #171717;
+            // display
+            display: none;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+    }
+}

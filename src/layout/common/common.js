@@ -43,3 +43,4 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 import Swiper from 'swiper/bundle';
 import "../blocks/screen-3/screen-3.js";
+import "../blocks/screen-4/screen-4.js";
