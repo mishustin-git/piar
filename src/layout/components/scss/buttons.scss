@@ -1,0 +1,31 @@
+.call-big{
+    // position
+    padding: 13px 35.5px;
+    // another
+    background-color: #5F5DDA;
+    cursor: pointer;
+    // fonts
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 128.5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.call-small{
+    // display
+    display: inline-block;
+    // position
+    padding: 13px 35.5px;
+    // another
+    background-color: #5F5DDA;
+    cursor: pointer;
+    // fonts
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}

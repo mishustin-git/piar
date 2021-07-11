@@ -40,3 +40,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	addPhoneMask();
 	tabs();
 });
+
+import Swiper from 'swiper/bundle';
+import "../blocks/screen-3/screen-3.js";

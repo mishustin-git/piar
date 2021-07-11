@@ -1,4 +1,6 @@
 body {
+	overflow-x: hidden;
+	height:9999px
 }
 .container {
 	max-width: $containerWidthPC;

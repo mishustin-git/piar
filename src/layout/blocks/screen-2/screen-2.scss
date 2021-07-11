@@ -1,0 +1,291 @@
+#screen2{
+    padding-top: 70px;
+    padding-bottom: 58px;
+    background-color: #f1f1f1;
+    .container{
+
+    }
+    .our-work{
+        margin-bottom: 67px;
+        position: relative;
+        &::after{
+            content: '';
+            border-left: 2px dashed #171717;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 25px;
+        }
+        &::before{
+            content: '';
+            border-top: 2px dashed #171717;
+            width: 58%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 25px;
+        }
+        .our-work-title{
+            padding-bottom: 38px;
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 128.5%;
+            text-transform: uppercase;
+            color: #555555;
+            
+        }
+        .our-work-information{
+            display: flex;
+            flex-direction: row;
+            .information-text{
+                display: flex;
+                flex-direction: column;
+                .our-work-item{
+                    position: relative;
+                    &::before{
+                        // pseudo-element style 
+                        content: '';
+                        // position
+                        position: absolute;
+                        top: 40px;
+                        left: 24px;
+                        margin-top: 24px;
+                        // dimensions
+                        height: 44%;
+                        // border style
+                        border-left: 2px dashed #171717;
+                    }
+                    &:last-child::before{
+                        display: none;
+                    }
+                    min-width: 917px;
+                    display: flex;
+                    flex-direction: row;
+                    .number{
+                        //align text in circle
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        //position
+                        margin-top: -10px;
+                        //fonts
+                        font-family: "Muller";
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 20px;
+                        line-height: 150%;
+                        text-align: center;
+                        color: #FFFFFF;
+                        //create a circle
+                        min-width: 50px;
+                        max-width: 50px;
+                        min-height: 50px;
+                        max-height: 50px;
+                        border-radius: 50px;
+                    }
+                    .text-block{
+                        margin-left: 40px;
+                        margin-bottom: 38px;
+                        .our-work-item-title{
+                            margin-bottom: 16px;
+                            //fonts
+                            font-family: "Muller";
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 24px;
+                            line-height: 128.5%;
+                            text-transform: uppercase;
+                            color: #555555;
+                        }
+                        .our-work-item-p{
+                            max-width: 850px;
+                            //fonts
+                            font-family: "Muller";
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #171717;
+                        }
+                    }
+                }
+            }
+            .information-img{
+                //position
+                margin-left: 50px;
+                margin-top: -9px;
+                //dimensions
+                min-width: 264px;
+                max-width: 264px;
+                img{
+                    // dimensions
+                    width: 264px;
+                    height: 778px;
+                }
+            }
+        }
+    }
+    .our-advantages{
+        .our-advantages-title{
+            margin-bottom: 52px;
+            //fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 128.5%;
+            text-transform: uppercase;
+            color: #555555;
+        }
+        .our-advantages-information{
+            // display
+            display: grid;
+            grid-template-columns: 420px 420px 420px;
+            column-gap: 20.5px;
+            row-gap: 41.5px;
+            // margin
+            margin-bottom: 105px;
+            .advantages-item-block{
+                display: flex;
+                flex-direction: row;
+                .left-img{
+                    max-width: 90px;
+                    min-width: 90px;
+                    img{
+                        width: 90px;
+                        height: 92px;
+                    }
+                }
+                .right-text{
+                    margin-left: 20px;
+                    margin-top: 6px;
+                }
+                .advantages-item-title{
+                    margin-bottom: 17px;
+                    // font
+                    font-family: "Muller";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 30px;
+                    line-height: 128.5%;
+                    text-transform: uppercase;
+                    color: #555555;
+                }
+                .advantages-item-p{
+                    font-family: "Muller";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #555555;
+                }
+            }
+        }
+    }
+    .our-statistics{
+        .our-statistics-title{
+            position: relative;
+            margin-bottom: 24px;
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 128.5%;
+            text-transform: uppercase;
+            color: #555555;
+            &::before{
+                content: '';
+                border-top: 2px solid #555555;
+                width: 25%;
+                position: absolute;
+                top: 0;
+                left: -350px;
+                margin-top: 16px;   
+            }
+        }
+        .our-statistics-p{
+            margin-bottom: 50px;
+            //fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 150%;
+            color: #171717;
+        }
+        .our-statistics-information{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .our-statistics-item{
+                // display
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                // dimensions
+                max-width: 206px;
+                .our-statistics-amount{
+                    // fonts
+                    font-family: "Muller";
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 55px;
+                    line-height: 128.5%;
+                    text-transform: uppercase;
+                }
+                .our-statistics-description{
+                    // fonts
+                    font-family: "Muller";
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 137.5%;
+                    text-align: center;
+                    color: #171717;
+                }
+            }
+        }
+    }
+}
+// number colors
+.orange{
+    background-color: #F3A050;
+}
+.pink{
+    background-color:#EC4DAD;
+}
+.violet{
+    background-color:#E653E9;
+}
+.lavalender{
+    background-color:#5F5DDA;
+}
+.indigo{
+    background-color:#1A51A4;
+}
+// amount colors
+
+/* indigo from number colors*/
+.indigo-color{
+    color:#1A51A4;
+}
+.maroon{
+    color:#C53751;
+}
+.salmon{
+    color: #EB4262;
+}
+.khaki{
+    color:#8C5630;
+}
+.pink-color{
+    color: #CA3E78;
+}

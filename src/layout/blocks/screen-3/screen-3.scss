@@ -1,0 +1,306 @@
+#screen3{
+    .our-cases{
+        margin-top: 67px;
+        margin-bottom: 83px;
+        .our-cases-title{
+            margin-bottom: 39px;
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 128.5%;
+            text-transform: uppercase;
+            color: #555555;
+        }
+        .cases-group-name{
+            margin-bottom: 42px;
+            // Класс отвечающий за слайд слайдера первого
+            .swiper-slide{
+                height: 124px !important;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+        }
+        .cases-content{
+            .cases-content-title{
+                // display
+                display: inline-block;
+                // indent
+                margin-top: 80px;
+                // dimentions
+                max-width: 299px;
+                // link
+                text-decoration: none;
+                // fonts
+                font-family: "Muller";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 20px;
+                text-transform: uppercase;
+                color: #171717;
+            }
+            .call-small{
+                margin-top: 36px;
+            }
+            // классы отвечающие за слайдер
+            .swiper-scrollbar{
+                background-color: #171717;
+                width: 100%;
+                left: 0;
+                height: 4px;
+                // top: 112px;
+                top: 454px;
+            }
+            .swiper-scrollbar-drag{
+                background-image: url("../img/screen-3/scrollbar-drag.png");
+                width: 42px !important;
+                height: 16px;
+                top: -6px;
+                border-radius: 0px;
+            }
+            .swiper-container{
+                padding-bottom: 12px;
+            }
+            .swiper-slide{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+        }
+    }
+    .our-services{
+        margin-bottom: 94px;
+        .our-services-title{
+            margin-bottom: 41px;
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 128.5%;
+            text-transform: uppercase;
+            color: #555555;
+        }
+        table{
+            width: 100%;
+            a{
+                text-decoration: none;
+                font-family: "Muller";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                /* identical to box height, or 24px */
+
+
+                color: #EC4DAD;
+            }
+            thead{
+                background-color: #555555;
+                padding-left: 90px;
+                // fonts
+                font-family: "Muller";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 150%;
+                color: #FFFFFF;
+            }
+            tbody{
+                background-color: #F2F2F2;
+                // fonts
+                font-family: "Muller";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                /* identical to box height, or 24px */
+
+
+                color: #555555;
+            }
+            tr{
+                td{
+                    &:first-child{
+                        padding-left: 48px;
+                    }
+                }
+            }
+            td{
+                padding-top: 11px;
+                padding-bottom: 10px;
+                align:left;
+            }
+        }
+    }
+    .our-reviews{
+        // display
+        position: relative;
+        .left-back-img{
+            position: absolute;
+            left: -311px;
+            top: 132px;
+        }
+        .our-reviews-title{
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 128.5%;
+            text-transform: uppercase;
+            color: #555555;
+            // position
+            margin-bottom: 51px;
+            margin-left: 34%;
+
+        }
+        //customising swiper js class
+        .information-block{
+            display: flex;
+            flex-direction: column;
+        }
+        .elem{
+            // dimentions
+            max-width: 420px;
+            // display
+            display: flex;
+            flex-direction: row;
+            // position
+            margin-bottom: 28px;
+        }
+        .left-img{
+            // posiyion
+            margin-right: 18px;
+            // dimensions
+            max-width: 82px;
+            min-width: 82px;
+            img{
+                width: 82px;
+                height: 82px;
+                // position
+                margin-top: -9px;
+            }
+        }
+        .right-information{
+            // display
+            display: flex;
+            flex-direction: column;
+            .information-block-name{
+                // fonts   
+                font-family: "Muller";
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #8B8B8B;
+            }
+            .information-block-position{
+                // fonts
+                font-family: "Muller";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                color:#5F5DDA;
+            }
+            .information-block-company{
+                // fonts
+                font-family: "Muller";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                color:#5F5DDA;
+            }
+            .review-preview{
+                // position
+                margin-top: 20px;
+                // dimentions
+                max-width: 320px;
+                // fonts
+                font-family: "Muller";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 128.5%;
+                color: #171717;
+            }
+            .details{
+                // position
+                margin-top: 17px;
+                // fonts
+                text-decoration: none;
+                font-family: "Muller";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 128.5%;
+                color: #EC4DAD;
+            }
+        }
+        //классы для слайдера
+        .swiper-button-disabled{
+            display: none;
+        }
+        .swiper-container{
+            width: 870px;
+            margin-left: 0;
+            margin-right: 0;
+            margin-left: 34%;
+            padding-bottom: 51px;
+        }
+        .swiper-button-next{
+            // position
+            top: 648.9px;
+            left: 709px;
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 128.5%;
+            text-align: right;
+            color: #171717;
+            // dimentions
+            width: 150px;
+            &::after{
+                // display: none;
+                content: url("../img/screen-3/right-arrow.png");
+                padding-left: 11px;
+                // left-arrow.png
+            }
+        }
+        .swiper-button-prev{
+            // position
+            top: 648.9px;
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 128.5%;
+            text-align: right;
+            color: #171717;
+            // dimentions
+            width: 150px;
+            &::after{
+                display: none;
+            }
+            &::before{
+                content: url("../img/screen-3/left-arrow.png");
+                padding-right: 11px;
+            }
+        }
+    }
+}
+  
