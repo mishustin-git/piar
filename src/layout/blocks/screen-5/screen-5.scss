@@ -1,0 +1,139 @@
+#screen5{
+    margin-bottom: 88px;
+    position: relative;
+    .right-back{
+        position: absolute;
+        right: -412px;
+        top: 58px;
+    }
+    .request-title{
+        // fonts
+        font-family: "Muller";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 128.5%;
+        text-transform: uppercase;
+        color: #555555;
+        // position
+        padding-top: 79px;
+        margin-bottom: 46px;
+    }
+    .politics{
+        p{
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 20px;
+
+            color: #838383;
+        }
+        a{
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 20px;
+
+            color: #838383;
+        }
+    }
+    form{
+        // position
+        margin-bottom: 89px;
+        // dimenstions
+        width: 602px;
+        input[type=text],input[type=tel],input[type=email]{
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 20px;
+            color: #171717;
+            // bottom-border
+            border-bottom: 1px solid #171717;
+            // dimentions
+            width: 100%;
+            height: 30px;
+            // position
+            margin-bottom: 46px;
+        }
+        .style::placeholder{
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 20px;
+            color: #171717;
+        }
+        .style::-webkit-input-placeholder{
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 20px;
+            color: #171717;
+        }
+        .style::-moz-placeholder{
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 20px;
+            color: #171717;
+            opacity: 1;
+        }
+        .style::-ms-input-placeholder{
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 20px;
+            color: #171717;
+        }
+        input[type=submit]{
+            margin-bottom: 30px;
+        }
+    }
+    .seo-text{
+        .seo-text-title{
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 128.5%;
+            text-transform: uppercase;
+            color: #555555;
+            // position
+            margin-bottom: 24px;
+        }
+        .seo-text-p-hidden,.seo-text-p{
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 150%;
+            color: #171717;
+        }
+        .open-full{
+            text-decoration: underline;
+            // fonts
+            font-family: "Muller";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: #EC4DAD;
+            cursor: pointer;
+            .hidden{
+                display: none;
+            }
+        }
+        .seo-text-p-hidden{
+            display: none;
+        }
+    }
+}
