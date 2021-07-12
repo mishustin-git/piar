@@ -44,6 +44,12 @@
             .information-text{
                 display: flex;
                 flex-direction: column;
+                .our-work-item:last-child .text-block{
+                    margin-bottom: 0;
+                }
+                .our-work-item:last-child .our-work-item-p{
+                    margin-bottom: 0;
+                }
                 .our-work-item{
                     position: relative;
                     &::before{
@@ -122,10 +128,14 @@
                 //dimensions
                 min-width: 264px;
                 max-width: 264px;
+                // display
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
                 img{
                     // dimensions
                     width: 264px;
-                    height: 778px;
+                    height: 100%
                 }
             }
         }

@@ -45,3 +45,5 @@ import Swiper from 'swiper/bundle';
 import "../blocks/screen-3/screen-3.js";
 import "../blocks/screen-4/screen-4.js";
 import "../blocks/screen-5/screen-5.js";
+// import "../../assets/libs/jquery/jquery-3.6.0.min.js";
+import "../../assets/libs/bootstrap/js/bootstrap.min.js";
